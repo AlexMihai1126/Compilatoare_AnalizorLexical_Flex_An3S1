@@ -1,0 +1,4 @@
+gcc -o analizor program.c -ll
+lex limbaj.l
+
+./analizor < fisier.c
